@@ -36,5 +36,45 @@ A modern solution for community waste management, helping connect citizens with 
 ### Installation
 
 1. Clone the repository
-git clone https://github.com/yourusername/ecotrack.git
+git clone [https://github.com/yourusername/ecotrack.git](https://github.com/Xoya0/Waste-Management-Platform.git)
 cd ecotrack
+
+2. Install dependencies
+bash
+Server
+cd server
+npm install
+Client
+cd ../client
+npm install
+
+
+3. Set up environment variables
+bash
+Server
+npm run dev
+Client (in new terminal)
+cd ../client
+npm start
+
+
+## 💻 Tech Stack
+
+- **Frontend**
+  - React.js
+  - Material UI
+  - Framer Motion
+
+- **Backend**
+  - Node.js
+  - Express
+  - MongoDB
+  - JWT Authentication
+
+## 🛠️ Development
+****
+bash
+Run tests
+npm test
+Build for production
+npm run build
